@@ -5,7 +5,6 @@ const mysql = require('mysql2');
 const fs = require('fs');
 const path = require('path');
 let result = "";
-let re = "";
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
